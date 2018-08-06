@@ -2,12 +2,11 @@
 
 namespace Changeset\Event;
 
-interface EventInterface
+use Changeset\Common\HasPayloadInterface;
+use Changeset\Common\OnAggregateInterface;
+
+interface EventInterface extends OnAggregateInterface, HasPayloadInterface
 {
-    public function getType(): string;
-
-    public function getAggregateId(): string;
-    public function setAggregateId(string $aggregateId);
-
-    public function getAggregateType(): string;
+    public function getName(): string;
+    public function setName(string $eventName);
 }

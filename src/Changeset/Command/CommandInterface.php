@@ -2,10 +2,11 @@
 
 namespace Changeset\Command;
 
-interface CommandInterface
-{
-    public function getAggregateId();
+use Changeset\Common\HasPayloadInterface;
+use Changeset\Common\OnAggregateInterface;
 
-    public function getPayload();
-    public function setPayload($payload);
+interface CommandInterface extends OnAggregateInterface, HasPayloadInterface
+{
+    public function getName(): string;
+    public function setName(string $commandName);
 }

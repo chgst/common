@@ -5,7 +5,10 @@
     "license": "MIT",
     "require": {},
     "require-dev": {
-        "phpspec/phpspec": "^5.0"
+        "phpspec/phpspec": "^5.0",
+        "doctrine/common": "^2.9",
+        "doctrine/dbal": "^2.8",
+        "doctrine/orm": "^2.6"
     },
     "autoload": {
         "psr-4": {

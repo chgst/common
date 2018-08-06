@@ -4,29 +4,17 @@ namespace Changeset\Command;
 
 trait CommandTrait
 {
-    protected $aggregateId;
+    /** @var string */
+    protected $name;
 
-    protected $payload;
-
-    protected function init(string $aggregateId, $payload)
+    public function getName(): string
     {
-        $this->aggregateId = $aggregateId;
-        $this->payload = $payload;
+        return $this->name;
     }
 
-    public function getAggregateId()
+    public function setName(string $name)
     {
-        return $this->aggregateId;
-    }
-
-    public function getPayload()
-    {
-        return $this->payload;
-    }
-
-    public function setPayload($payload)
-    {
-        $this->payload = $payload;
+        $this->name = $name;
 
         return $this;
     }
