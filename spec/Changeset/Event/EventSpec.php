@@ -5,7 +5,6 @@ namespace spec\Changeset\Event;
 use Changeset\Event\Event;
 use Changeset\Event\EventInterface;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class EventSpec extends ObjectBehavior
 {
