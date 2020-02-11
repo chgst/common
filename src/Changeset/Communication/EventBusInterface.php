@@ -11,7 +11,7 @@ interface EventBusInterface
     public function enableListeners();
     public function disableListeners();
     public function listenersEnabled(): bool;
-    public function addListener(ListenerInterface $listener);
-    public function addProjector(ProjectorInterface $projector);
+    public function addListener(ListenerInterface $listener, $priority = 0);
+    public function addProjector(ProjectorInterface $projector, $priority = 0);
     public function dispatch(EventInterface $event);
 }
