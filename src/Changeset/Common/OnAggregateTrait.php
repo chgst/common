@@ -15,7 +15,7 @@ trait OnAggregateTrait
         return $this->aggregateId;
     }
 
-    public function setAggregateId($aggregateId)
+    public function setAggregateId(string $aggregateId)
     {
         $this->aggregateId = $aggregateId;
 
