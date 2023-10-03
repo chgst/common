@@ -4,11 +4,9 @@ namespace Changeset\Common;
 
 trait OnAggregateTrait
 {
-    /** @var string */
-    protected $aggregateId;
+    protected string $aggregateId;
 
-    /** @var string */
-    protected $aggregateType;
+    protected string $aggregateType;
 
     public function getAggregateId() : string
     {

@@ -4,8 +4,7 @@ namespace Changeset\Common;
 
 trait BlameableTrait
 {
-    /** @var string */
-    protected $createdBy;
+    protected string $createdBy;
 
     public function getCreatedBy(): ?string
     {

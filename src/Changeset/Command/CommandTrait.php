@@ -4,8 +4,7 @@ namespace Changeset\Command;
 
 trait CommandTrait
 {
-    /** @var string */
-    protected $name;
+    protected string $name;
 
     public function getName(): string
     {
