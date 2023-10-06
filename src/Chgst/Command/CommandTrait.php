@@ -1,6 +1,6 @@
 <?php
 
-namespace Changeset\Command;
+namespace Chgst\Command;
 
 trait CommandTrait
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Changeset\Communication;
+namespace Chgst\Communication;
 
-use Changeset\Command\CommandInterface;
-use Changeset\Command\HandlerInterface;
+use Chgst\Command\CommandInterface;
+use Chgst\Command\HandlerInterface;
 
 interface CommandBusInterface
 {

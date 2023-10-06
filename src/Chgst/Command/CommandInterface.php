@@ -1,9 +1,9 @@
 <?php
 
-namespace Changeset\Command;
+namespace Chgst\Command;
 
-use Changeset\Common\HasPayloadInterface;
-use Changeset\Common\OnAggregateInterface;
+use Chgst\Common\HasPayloadInterface;
+use Chgst\Common\OnAggregateInterface;
 
 interface CommandInterface extends OnAggregateInterface, HasPayloadInterface
 {

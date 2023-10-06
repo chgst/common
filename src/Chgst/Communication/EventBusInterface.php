@@ -1,10 +1,10 @@
 <?php
 
-namespace Changeset\Communication;
+namespace Chgst\Communication;
 
-use Changeset\Event\EventInterface;
-use Changeset\Event\ListenerInterface;
-use Changeset\Event\ProjectorInterface;
+use Chgst\Event\EventInterface;
+use Chgst\Event\ListenerInterface;
+use Chgst\Event\ProjectorInterface;
 
 interface EventBusInterface
 {
