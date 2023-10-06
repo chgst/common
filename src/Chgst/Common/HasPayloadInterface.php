@@ -1,6 +1,6 @@
 <?php
 
-namespace Changeset\Common;
+namespace Chgst\Common;
 
 interface HasPayloadInterface
 {

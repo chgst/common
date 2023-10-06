@@ -1,9 +1,9 @@
 <?php
 
-namespace Changeset\Event;
+namespace Chgst\Event;
 
-use Changeset\Common\HasPayloadInterface;
-use Changeset\Common\OnAggregateInterface;
+use Chgst\Common\HasPayloadInterface;
+use Chgst\Common\OnAggregateInterface;
 
 interface EventInterface extends OnAggregateInterface, HasPayloadInterface
 {

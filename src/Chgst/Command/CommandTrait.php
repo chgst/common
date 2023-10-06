@@ -1,11 +1,10 @@
 <?php
 
-namespace Changeset\Command;
+namespace Chgst\Command;
 
 trait CommandTrait
 {
-    /** @var string */
-    protected $name;
+    protected string $name;
 
     public function getName(): string
     {

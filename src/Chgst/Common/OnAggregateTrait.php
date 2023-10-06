@@ -1,21 +1,19 @@
 <?php
 
-namespace Changeset\Common;
+namespace Chgst\Common;
 
 trait OnAggregateTrait
 {
-    /** @var string */
-    protected $aggregateId;
+    protected string $aggregateId;
 
-    /** @var string */
-    protected $aggregateType;
+    protected string $aggregateType;
 
     public function getAggregateId() : string
     {
         return $this->aggregateId;
     }
 
-    public function setAggregateId($aggregateId)
+    public function setAggregateId(string $aggregateId)
     {
         $this->aggregateId = $aggregateId;
 

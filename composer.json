@@ -1,23 +1,18 @@
 {
     "name": "chgst/common",
-    "description": "Set of common classes and interfaces for chgset project",
+    "description": "Set of common classes and interfaces for chgst project",
     "type": "library",
     "license": "MIT",
     "require": {},
     "require-dev": {
-        "phpspec/phpspec": "^5.0",
-        "doctrine/common": "^2.9",
-        "doctrine/dbal": "^2.8",
-        "doctrine/orm": "^2.6"
+        "phpspec/phpspec": "^7.4.0",
+        "doctrine/common": "^3.4.3",
+        "doctrine/dbal": "^3.7.0",
+        "doctrine/orm": "^2.16.2"
     },
     "autoload": {
         "psr-4": {
             "": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "spec/"
         }
     }
 }

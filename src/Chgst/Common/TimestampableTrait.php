@@ -1,11 +1,10 @@
 <?php
 
-namespace Changeset\Common;
+namespace Chgst\Common;
 
 trait TimestampableTrait
 {
-    /** @var \DateTimeInterface */
-    protected $createdAt;
+    protected \DateTimeInterface $createdAt;
 
     public function getCreatedAt(): \DateTimeInterface
     {

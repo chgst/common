@@ -1,11 +1,10 @@
 <?php
 
-namespace Changeset\Event;
+namespace Chgst\Event;
 
 trait EventTrait
 {
-    /** @var string */
-    protected $name;
+    protected string $name;
 
     public function getName(): string
     {

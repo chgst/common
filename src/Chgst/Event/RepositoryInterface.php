@@ -1,6 +1,6 @@
 <?php
 
-namespace Changeset\Event;
+namespace Chgst\Event;
 
 interface RepositoryInterface
 {

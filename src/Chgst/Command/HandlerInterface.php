@@ -1,9 +1,9 @@
 <?php
 
-namespace Changeset\Command;
+namespace Chgst\Command;
 
-use Changeset\Event\EventInterface;
-use Changeset\Event\RepositoryInterface;
+use Chgst\Event\EventInterface;
+use Chgst\Event\RepositoryInterface;
 
 interface HandlerInterface
 {
